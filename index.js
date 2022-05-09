@@ -36,9 +36,9 @@ const questions = [
     //Licensing
     {
         type:'list',
-        name:'License',
+        name:'license',
         message:'Please choose which licensing the project has',
-        choices:['',''],
+        choices:['Apache','Boost'],
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -148,7 +148,7 @@ function init() {
     inquirer.prompt(questions)
     .then(function (userInput) {
         console.log(userInput)
-        writeToFile("README.md", generateMarkdown(userInput));
+        writeToFile("./utils/README.md", generateMarkdown(userInput));
     })
  };
 
