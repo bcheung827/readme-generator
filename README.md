@@ -19,6 +19,8 @@
   The first step of installation is by running npm i in the integrated terminal of index.js file.
 
   ## Usage
+  In order to create a professional readme, the user has to open an integrated terminal in the index.js file, then run node index in the integrated terminal. Once the user runs node index, the user is then prompted with a series of questions that lead to generating the readme. Upon completion of answering the questions. The readme is then generated for the user to utilize.
+
   <img src="utils\readme-generator.gif"><br>
   Or view link here - [Screencastify](https://drive.google.com/file/d/1waQbHz7GKAucIxdk9_ygCH-6JjcMObTL/preview)
 
